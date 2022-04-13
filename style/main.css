@@ -1,0 +1,108 @@
+:root{
+    --amarelo: #bbd817;
+    --azul: #3b60da;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--azul);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--amarelo);
+    font-family: 'Arial Black', Arial, Times, serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(23, 5, 119);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Jogo Principal */
+
+.jogo-principal{
+   font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(../img/super-mario-world.png);
+   height: 400px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
+
+.box-jogo{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 5px;
+}
+
+.container-video{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
